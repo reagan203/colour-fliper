@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color flipper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <h1 id="h1">Facts Flipper</h1>
+            <p>They say that laughter is the best medicine, and it's no wonder why fun quotes hold a special place in our hearts. Fun quotes have the power to lift our spirits, bring a smile to our faces, and remind us of the joy that can be found in even the simplest moments of life.</p>
+            <p>One of my favorite fun quotes comes from the great Dr. Seuss, who once said, "Why fit in when you were born to stand out?" This quote reminds us that embracing our uniqueness and quirks can be not only fun but also incredibly empowering. It encourages us to celebrate our individuality and to let our true selves shine through.</p>
+            <p>Another fun quote, this time from Albert Einstein, a man known for his brilliance, reminds us that "Imagination is more important than knowledge." This playful sentiment encourages us to explore the depths of our creativity and dare to dream big. It's a reminder that in the realm of imagination, the possibilities are endless, and that's where much of life's joy resides.</p>
+            <p>And let's not forget the wisdom of the great Charlie Chaplin: "A day without laughter is a day wasted." Chaplin's quote underlines the importance of laughter and mirth in our lives. It's a gentle nudge to find humor in the everyday and cherish the moments that make us laugh heartily.</p>
+
+            <button class="btn btn-hero" id="btn">click me</button>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2 id="fact"><span class="color"></span></h2>
+        </div>
+    </main>
+    <h2 id="h2">Submit YOUR FACTS</h2>
+    <form id="contentForm">
+        <label for="content"></label><br>
+        <textarea id="content" rows="4" cols="50"></textarea><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <div id="submittedContent">
+        <!-- Display submitted content here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
